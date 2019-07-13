@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111413892-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-111413892-1');
+  </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A complete portfolio.">
+
+	<!-- Website Title -->
+    <title>Taggart Bonham | Portfolio </title>
+    <!-- Bootstrap -->
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font-Awesome -->
+    <link href="../assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Lightbox -->
+	<link href="../assets/lightbox/css/lightbox.css" rel="stylesheet">
+    <!-- Text Rotator-->
+	<link href="../assets/textrotator/simpletextrotator.css" rel="stylesheet">
+	<!-- Theme Style -->
+    <link href="../css/style.css" rel="stylesheet">
+	<!-- Animations -->
+    <link href="../css/animate.css" rel="stylesheet">
+	<!-- Custom Favicon -->
+	<link href="../img/favicontabo.ico" rel="shortcut icon" type="../image/x-icon" />
+  </head>
+    <body id="top">
+
+      <!-- ****************************** Preloader ************************** -->
+      <div id="preloader"></div>
+
+
+	  	<!-- ==========================
+        HEADER SECTION
+        =========================== -->
+        <header id="home">
+		    <!-- creative menu -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="menu-wrap">
+				<nav class="menu">
+				    <!-- Menu Links -->
+					<div class="icon-list">
+           <ul class="nav navbar-nav">
+						<li><a href="../index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a></li>
+            <li><a href="../assets/content/jtbresume.pdf" target="_blank"><i class="fa fa-fw fa-file-text-o"></i><span>Resume</span></a></li>
+            <li><a href="../index.html#about"><i class="fa fa-fw fa-user"></i><span>About</span></a></li>
+            <li><a href="../index.html#portfolio"><i class="fa fa-fw fa-code"></i><span>Portfolio</span></a></li>
+					  <li><a href="../index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a></li>
+          </ul>
+          </div>
+				</nav>
+			    </div>
+			    <button class="menu-button" id="open-button"></button><!-- menu button -->
+              </div><!--/row-->
+            </div><!--/container-->
+
+		  <!-- Header Image End -->
+        </header>
+		<!-- ==========================
+        HEADER SECTION END
+        =========================== -->
+
+
+
+
+
+
+		<!-- ==========================
+        PORTFOLIO SECTION
+    =========================== -->
+    <section class="swag text-center" id="portfolio">
+      <div class="container">
+    <!-- Headline -->
+        <div class="row">
+          <h1 class="arrow">
+             <span>Portfolio</span>
+          </h1>
+        </div>
+        <br><br>
+
+
+        <div class="container-fluid">
+            <!-- About 1 -->
+          <div class="row color-bg">
+            <div class="col-md-6 nopadding features-intro-img">
+              <div class="about-image" style="background-image:url(../img/blog/blog2signalstrength.png)"></div><!-- about image 1 -->
+            </div>
+            <div class="col-md-6 about-text">
+              <h6>Wifi Signal Strength Mapping </h6><!-- headline-->
+              <p>Wifi signal strength varies spatially. This project built and deployed the required ROS-nodes to autonomously generate a Floorplan of a location, overlaid with signal strength. The analyses make use of geographic-weighted regression to plot spatial variance.</p><!-- Description-->
+            <br>
+              <div class="row">
+                <div class="col-md-12">
+                  <ul class="social-buttons">
+                    <li><a href="wifimapping.html" target="_blank" class="weight-outline-btn"><i class="fa fa-file-text-o"></i></a></li><!-- email -->
+                    <li><a href="http://www.youtube.com/watch?v=hceOrScLP7Q" target="_blank" class="weight-outline-btn"><i class="fa fa-youtube-play"></i></a></li><!-- linkedin -->
+                    <li><a href="https://medium.com/@taggartbonham/wifi-signal-strength-monitoring-robot-2f7ad74c360a" target="_blank" class="weight-outline-btn"><i class="fa fa-medium"></i></a></li><!-- linkedin -->
+                    <li><a href="https://github.com/jtbon20/SignalMapping" class="weight-outline-btn"><i class="fa fa-github"></i></a></li> <!-- github -->
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<wrtup style="text-align:left;">
+        <h2><a id="Getting_Started_9"></a>Getting Started</h2>
+        <p>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.</p>
+        <h3><a id="Prerequisites_13"></a>Prerequisites</h3>
+        <ul>
+        <li>A <a href="https://medium.com/@taggartbonham/wifi-signal-strength-monitoring-robot-2f7ad74c360a">robot</a> running <a href="http://www.ros.org/">ROS</a> with…</li>
+
+        <ul>
+        <li>WiFi-Connectivity</li>
+        <li><a href="https://en.wikipedia.org/wiki/Lidar">LiDAR</a></li>
+        <li><a href="https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-412j-cognitive-robotics-spring-2005/projects/1aslam_blas_repo.pdf">SLAM</a> libraries</li>
+        <li>a ROS <a href="https://github.com/jtbon20/SignalStrengthNode">node</a> that logs signal signal strength</li>
+        </ul>
+        <ul>
+          </ul>
+        <li>A new <a href="https://www.r-project.org/">R</a> installation for statistical processing</li>
+        </ul>
+        <h3><a id="Installing_21"></a>Installing</h3>
+        <p>Detailed <a href="https://medium.com/@taggartbonham/wifi-signal-strength-monitoring-robot-2f7ad74c360a">set-up documentation</a> for the robot makes use of my <a href="https://github.com/jtbon20/SignalStrengthNode">code</a> for a signal-strength publishing node.</p>
+        <p>In order to create this node, we make a new package in our catkin workspace.</p>
+        <pre><code>$ cd ~/catkin_ws/src <br>src $ catkin_create_pkg signal_gthr std_msgs rospy</code></pre>
+        <p>After this folder’s been created, replace the contents of the new folder with the <a href="https://github.com/jtbon20/SignalMapping/tree/master/signal_gthr">folder</a> in this repository. To deploy our new node, we make our host_posAndSignal.py executable, and then catkin_make this package:</p>
+        <pre><code>$ sudo chmod +x signal_gthr/src/host_posAndSignal.py<br>$ cd ~/catkin_ws<br>$ catkin_make<br>$ rospack profile</code></pre>
+        <h3><a id="Deploying_42"></a>Deploying</h3>
+        <p>Now you are ready to run the host_posAndSignal.py script. Locate a folder to save the data output.</p>
+        <p>Initialize ROS, and bringup the robot and your <a href="https://github.com/jtbon20/SignalStrengthNode">wifi node</a> of choice.</p>
+        <pre><code>host$ roscore</code></pre>
+        <p>For specific launch instructions on the TurtleBot3, the platform used in my build of this project, see their <a href="http://emanual.robotis.com/docs/en/platform/turtlebot3/overview/">website</a>.</p>
+        <pre><code>deadspottr$ roslaunch turtlebot3_bringup turtlebot3_robot.launch<br>deadspottr$ rosrun single_sig_test signal_strength.py</code></pre>
+        <p>We now launch the signal_gthr node we just constructed on the host computer.</p>
+        <pre><code>host$ roslaunch turtlebot3_slam turtlebot3_slam.launch<br>host$ rosrun rviz rviz -d `rospack find turtlebot3_slam`/rviz/turtlebot3_slam.rviz<br>host$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch</code></pre>
+        <p>To begin data-collection, run:</p>
+        <pre><code>host$ rostopic echo -p /signal_dtagthr &gt; /Path/to/output/file.txt</code></pre>
+        <p>To check your set-up, run <code>host$ rosrun rqt_graph rqt_graph</code> to check your <a href="http://wiki.ros.org/rqt_graph">RQT-Graph</a> against the proper <a href="https://github.com/jtbon20/SignalMapping/blob/master/assets/rqt_graph.png" target="_blank">set-up</a>.</p>
+        <br>
+        <h2><a id="Usage_77"></a>Usage</h2>
+        <h3><a id="Data_Collection_78"></a>Data Collection</h3>
+        <p>Now that the nodes are running, allow the robot to drive around the area you are trying to map.</p>
+        <p>After you are satisfied with the local area map, save the resulting map into the data folder, where we’ve been saving the publishings of the /signal_dtagthr topic.</p>
+        <pre><code>host$ rosrun map_server map_saver -f map</code></pre>
+        <h3><a id="Data_Processing_88"></a>Data Processing</h3>
+        <p>To process these files into an output map, we now run the R script.</p>
+        <pre><code>host$ r -f /Path/to/GenerateSignalMap.R</code></pre>
+        <p>Because this script can run from any location, you will be prompted twice to enter the location of the data files that we collected.<br>
+        When promped, enter the direct path to the file or folder asked. If this does not work, you can hard-code the path locations directly into the script.</p>
+        <p>The final generated file will be in the folder of the R script and be pdf file titled Rplots.pdf.</p>
+<br>
+        <h2><a id="Built_With_102"></a>Built With</h2>
+        <ul>
+        <li><a href="http://www.ros.org/">ROS</a> - Open Source Robotic Software Platform</li>
+        <li><a href="http://emanual.robotis.com/docs/en/platform/turtlebot3/overview/">TurtleBot3</a> - Robotic Hardware Platform</li>
+        <li><a href="https://www.r-project.org/">R</a> - Open Source Statistical Software</li>
+        </ul>
+
+</wrtup>
+
+          </div>
+  </section>
+		<!-- ==========================
+        PORTFOLIO SECTION END
+        =========================== -->
+
+		<!-- ==========================
+        CONTACT SECTION
+        =========================== -->
+        <section class="text-center section-padding contact-wrap" id="contact">
+          <div class="container">
+		    <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Drop <span>me</span> a line</h1>
+              </div>
+            </div>
+
+			<!-- Social Buttons--->
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="social-buttons">
+              <li><a href="mailto:jtb@taggartbonham.me" class="social-btn"><i class="fa fa-envelope"></i></a></li><!-- email -->
+                  <li><a href="https://www.linkedin.com/in/taggartbonham/" class="social-btn"><i class="fa fa-linkedin"></i></a></li><!-- linkedin -->
+                  <li><a href="https://github.com/jtbon20" class="social-btn"><i class="fa fa-github"></i></a></li> <!-- github -->
+                  <li><a href="https://medium.com/@taggartbonham" class="social-btn"><i class="fa fa-medium"></i></a></li><!-- medium -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+		<!-- ==========================
+        CONTACT SECTION END
+        =========================== -->
+
+
+		<!-- ==========================
+        FOOTER SECTION
+        =========================== -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p>All Rights Reserved. &copy; 2017 <a href="http://taggartbonham.me">Taggart Bonham</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+		<!-- ==========================
+        FOOTER SECTION END
+        =========================== -->
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- SmoothScroll -->
+    <script type="../text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
+    <!-- Bootstrap -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="../js/waypoints.min.js"></script>
+    <!-- classie.js -->
+	<script src="../js/classie.js"></script>
+	<!-- Modernizr -->
+    <script src="../js/modernizr.js"></script>
+	<!-- Lightbox.js -->
+    <script src="../assets/lightbox/js/lightbox.min.js"></script>
+  <!-- Theme JavaScript Core -->
+	<script src="../js/main.js"></script>
+	<script src="../js/script.js"></script>
+
+    </script>
+    </body>
+</html>
