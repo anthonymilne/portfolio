@@ -1,0 +1,46 @@
+Formatting:
+
+RESUME
+  add project section
+  make font bigger if 1 page not constraint
+  add 100+ mile to backpacking section
+  add geographic info systems
+  change header from microsoft word
+
+SITEMAP.xml
+  add so that future portfolio gets ranked correctly
+
+
+Build automated process of adding Projects
+  that updates gh, portfolio on site, medium, sitemap etc.
+
+Add 404 page
+Add https
+
+README.md
+  add more information to them regarding setup
+    ex: https://github.com/dataquestio/loan-prediction
+
+
+
+Potential Options:
+  Build on RasPi
+    Then add php contact back in
+
+    Portfolio Section:
+      SEE ALL expanding button
+      Filter by type
+      Add language type tags
+      ability to search
+      clicking on Languages in Education > filters  by that Language
+      think about how to set up with backlinks to optimize for SEO
+        potentially add pages for each Project
+        embed links to website on medium
+      add dates
+
+  Counters -- but make so that they live update NOT hardcoded
+    Repositories
+    Lines of code
+    cups of coffee
+    website hits
+      website hit Counters
