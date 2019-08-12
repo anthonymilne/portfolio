@@ -93,7 +93,7 @@ h70::after {
 }
 
 h80 {
-	font-size:15px;
+	font-size:16px;
 	color:#056932!important;
 	text-transform:uppercase;
 	font-weight:bold;
@@ -102,13 +102,13 @@ h80::after {
 	content:" ";
 	display:block;
 	width:65px;
-	margin:15px auto;
+	margin:16px auto;
 }
 
 h90 {
-	font-size:15px;
+	font-size:14px;
 	color:#353535!important;
-	/* text-transform:uppercase; */
+	text-transform:uppercase;
 	font-weight:bold;
 	font-style: italic
 }
@@ -116,7 +116,7 @@ h90::after {
 	content:" ";
 	display:block;
 	width:65px;
-	margin:15px auto;
+	margin:14px auto;
 }
 
 
