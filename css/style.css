@@ -108,7 +108,7 @@ h80::after {
 h90 {
 	font-size:15px;
 	color:#353535!important;
-	text-transform:uppercase;
+	/* text-transform:uppercase; */
 	font-weight:bold;
 	font-style: italic
 }
