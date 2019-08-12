@@ -82,7 +82,6 @@ h6::after {
 h70 {
 	font-size:20px;
 	color:#353535!important;
-	text-transform:uppercase;
 	font-weight:bold;
 }
 h70::after {
@@ -90,6 +89,7 @@ h70::after {
 	display:block;
 	width:65px;
 	margin:10px auto;
+	border:solid 1px #CCCCCC;
 }
 
 h80 {
@@ -100,7 +100,6 @@ h80 {
 }
 h80::after {
 	content:" ";
-	border:solid 1px #CCCCCC;
 	display:block;
 	width:65px;
 	margin:20px auto;
