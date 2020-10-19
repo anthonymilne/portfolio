@@ -50,6 +50,7 @@ pblack {
 	word-spacing:1px;
 	line-height:25px;
 	font-size:14px;
+	line-height: 28px!important;
 }
 h2 {
 	font-size:15px;
@@ -645,7 +646,7 @@ h1.arrowDart {
 }
 /* ==========================================================================About========================================================================== */
 .about-image {
-	height:400px;
+	height:450px;
 	min-height: 100%;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
