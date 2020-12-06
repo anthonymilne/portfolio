@@ -142,10 +142,10 @@ audio,canvas,video {
 	*display:inline;
 	*zoom: 1;
 }
-* Remove excess height in iOS 5 devices. */
+/* Remove excess height in iOS 5 devices. */
 audio:not([controls]) {
 	display:none;
-	height:0;
+	height: 0;
 }
 [hidden] {
 	display: none;
@@ -301,7 +301,7 @@ legend {
 }
 button,input,select,textarea {
 	font-size:100%;
-	/margin:0;
+	margin:0;
 	vertical-align:baseline;
 	*vertical-align:middle;
 }
@@ -518,7 +518,7 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/BackgroundAssets/HeaderTonyMilne.jpg') right bottom no-repeat;
+	background: url('../img/BackgroundAssets/tonyportfolio2.jpg') right bottom no-repeat;
 	background-size: contain;
 	padding: 0px 0 10px 0;
 	height:auto;
