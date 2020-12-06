@@ -519,7 +519,7 @@ table {
 /* ==========================================================================Hero========================================================================== */
 .hero {
 	background: url('../img/BackgroundAssets/tonyportfolio2.jpg') right bottom no-repeat;
-	background-size: contain;
+	background-size: 35rem;
 	padding: 0px 0 10px 0;
 	height:auto;
 	background-color: #FFFFFF;
