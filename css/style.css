@@ -519,7 +519,7 @@ table {
 /* ==========================================================================Hero========================================================================== */
 .hero {
 	background: url('../img/BackgroundAssets/tonyportfolio2.jpg') right bottom no-repeat;
-	background-size: 35rem;
+	background-size: 33rem;
 	padding: 0px 0 10px 0;
 	height:auto;
 	background-color: #FFFFFF;
@@ -1217,7 +1217,7 @@ ul.slides li {
 	}
 
   .hero {
-  	background: url('../img/iphone-bg.jpg') right bottom no-repeat;
+  	background: url('../img/BackgroundAssets/tonyportfolio2.jpg') right bottom no-repeat;
   	background-size: contain;
   	padding: 0px 0 0px 0;
   	height:auto;
