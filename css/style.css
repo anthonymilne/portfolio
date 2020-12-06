@@ -46,10 +46,10 @@ p {
 	/* 8c9398 */
 }
 pblack {
+	font-family: 'Open Sans',sans-serif;
 	color:#000000;
 	word-spacing:1px;
-	line-height:25px;
-	font-size:14px;
+	font-size:15px;
 	line-height: 28px!important;
 }
 h2 {
@@ -519,7 +519,7 @@ table {
 /* ==========================================================================Hero========================================================================== */
 .hero {
 	background: url('../img/BackgroundAssets/tonyportfolio2.jpg') right bottom no-repeat;
-	background-size: 30rem;
+	background-size: 31.5rem;
 	padding: 0px 0 10px 0;
 	height:auto;
 	background-color: #FFFFFF;
