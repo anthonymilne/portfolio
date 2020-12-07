@@ -34,7 +34,7 @@ a {
 	outline:none!important;
 }
 a:hover,a:focus,a:active {
-	color:#0D0D0D;
+	color:#095E85;
 	text-decoration:none;
 	outline:none!important;
 }
@@ -1028,6 +1028,11 @@ ul.social-buttons li:last-child {
 }
 
 .social-btn:hover,.social-btn:focus {
+	background: #095E85;
+	color: #ffffff;
+}
+
+.social-btn-small:hover,.social-btn:focus {
 	background: #095E85;
 	color: #ffffff;
 }
