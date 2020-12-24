@@ -518,8 +518,8 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/BackgroundAssets/tonyportfolio2.jpg') right bottom no-repeat;
-	background-size: 31.5rem;
+	background: url('../img/BackgroundAssets/summerpic2.png') bottom right 125px no-repeat;
+	background-size: 17.5rem;
 	padding: 0px 0 10px 0;
 	height:auto;
 	background-color: #FFFFFF;
@@ -1222,7 +1222,7 @@ ul.slides li {
 	}
 
   .hero {
-  	background: url('../img/BackgroundAssets/tonyportfolio2.jpg') right bottom no-repeat;
+  	background: url('../img/BackgroundAssets/summerpic2.png') right bottom no-repeat;
   	background-size: contain;
   	padding: 0px 0 0px 0;
   	height:auto;
